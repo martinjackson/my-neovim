@@ -1,0 +1,14 @@
+
+function PrintCursorWord()
+  -- Get the word under the cursor
+  local word = vim.fn.expand("<cword>")
+
+  -- Check if the word is not empty
+  if word and word ~= "" then
+    -- Print the word to the Neovim message area
+    print("Variable under cursor: " .. word)
+  else
+    print("No word under cursor.")
+  end
+end
+
