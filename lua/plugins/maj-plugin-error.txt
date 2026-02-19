@@ -1,0 +1,7 @@
+   Error  02:30:22 PM msg_show.emsg E5108: Error executing lua: .../nvim/lazy/telescope.nvim/lua/telescope/actions/init.lua:381: attempt to index local 'picker' (a nil value)
+stack traceback:
+	.../nvim/lazy/telescope.nvim/lua/telescope/actions/init.lua:381: in function 'run_replace_or_original'
+	...re/nvim/lazy/telescope.nvim/lua/telescope/actions/mt.lua:65: in function 'close'
+	/home/mjackson/.config/nvim/lua/plugins/telescope.lua:96: in function 'run_replace_or_original'
+	...re/nvim/lazy/telescope.nvim/lua/telescope/actions/mt.lua:65: in function 'key_func'
+	...hare/nvim/lazy/telescope.nvim/lua/telescope/mappings.lua:293: in function <...hare/nvim/lazy/telescope.nvim/lua/telescope/mappings.lua:292>

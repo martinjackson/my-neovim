@@ -11,6 +11,3 @@ vim.opt.scrolloff = 8
 
 -- nim.opt.shiftwidth = 4   (default is 2)
 -- print(vim.inspect(vim.opt.shiftwidth))
-
--- maj 2026-01-03
-vim.opt.clipboard = "unnamedplus" -- Sync with system clipboard
